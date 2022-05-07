@@ -9,13 +9,13 @@
 		<meta charset="utf-8">	
 		<title>Los bebos | Crear usuario</title>
 		<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/loginBebos.css">
 	</head>
 
 	<body>
         <div align="center" class="wrapper">
             <div id="formContentLog">
-                <form>
+                <form action="registrar.php" method="post">
                     <div>
                         <span  class="CrearUs">Nombre: </span>
                         <input type="text" name="nombre" placeholder="Nombre"><br><br>
@@ -30,11 +30,11 @@
                     </div>
                     <div>
                         <span  class="CrearUs">Correo electrónico: </span>
-                        <input type="text" name="correo" placeholder="Correo"><br><br>
+                        <input type="email" name="correo" placeholder="Correo"><br><br>
                     </div>
                     <div>
                         <span  class="CrearUs">Contraseña: </span>
-                        <input type="text" name="contra" placeholder="Contraseña"><br><br>
+                        <input type="password" name="contra" placeholder="Contraseña"><br><br>
                     </div>
                     <input type="submit" value="Crear usuario">
                 </form>

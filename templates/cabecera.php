@@ -55,7 +55,7 @@
                     </svg>
                   </span>
                 </center>             
-                <a class="nav-link" href="bases.html">Despensa</a>
+                <a class="nav-link" href="despensa.php">Despensa</a>
               </li>
               <li class="nav-item">
                 <center>
