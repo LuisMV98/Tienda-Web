@@ -36,8 +36,31 @@
                         <span  class="CrearUs">Contraseña: </span>
                         <input type="password" name="contra" placeholder="Contraseña"><br><br>
                     </div>
-                    <input type="submit" value="Crear usuario">
+                    <?php
+                        if(isset($_REQUEST['conf']))
+                        {
+                            print("<div class='alert alert-success'>");
+                            $conf = $_REQUEST['conf'];
+                            if($conf==1)
+                            {
+                                print("Nuevo Usuario Registrado.");
+                            }
+                            print("</div>");
+                        }else{
+                            print("<input type='submit' value='Crear usuario'>");
+                        }
+                    ?>	
                 </form>
+                <?php
+                    if(isset($_REQUEST['conf']))
+                    {
+                        $conf = $_REQUEST['conf'];
+                        if($conf==1)
+                        {
+                            print("<a href='login.php'><input type='submit' value='Iniciar sesión'></a>");
+                        }
+                    }
+                ?>
             </div>
         </div>
 
