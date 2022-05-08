@@ -1,11 +1,11 @@
 <?php
 	include("conexionBebos.php");
-	$user = $_REQUEST['correo'];
+	$corr = $_REQUEST['correo'];
 	$pass = $_REQUEST['contra'];
 
 	$link = Conectar();
 
-	$query = "SELECT correo, contraseña FROM usuarios WHERE correo = '" . $user . "'";
+	$query = "SELECT correo, contraseña FROM usuarios WHERE correo = '" . $corr . "'";
 	
 	$consulta = mysqli_query($link,$query);
 
@@ -15,18 +15,18 @@
 	{
 		while($fila = mysqli_fetch_row($consulta))
 		{
-			//$user_consulta = $fila[1];
+			//$corr_consulta = $fila[1];
 			//print("Acceso Autorizado");
 			if($fila[1] == $pass)
 			{
 				session_start();
-				$_SESSION['correo'] = $fila[0];
+				$_SESSION['correous'] = $fila[0];
 
-				header("location: index.php");
+				header("location: index.php?init=1");
 			}
 			else
 			{
-				header("location: index.php?err=0");
+				header("location: login_error.php?err=0");
 			}			
 		}
 	}
@@ -35,13 +35,13 @@
 	}
 	elseif ($datos == 0){
 		//print("El Usuaior no Existe");
-		header("location: index.php?err=1");
+		header("location: login_error.php?err=1");
 	}
 
 
 
 
-	//print($user);
+	//print($corr);
 	//print("<br>");
 	//print($pass);
 
@@ -49,7 +49,7 @@
 
 
 	print("<br>");
-	print("<a href = index.php>Inicio</a> ");
+	print("<a href = login.php>Inicio</a> ");
 
 
 
