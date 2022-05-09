@@ -1,3 +1,11 @@
+<?php
+	//session_start();
+	if(isset($_SESSION['nomb']))
+	{
+    $nom = $_SESSION['nomb'];
+	}
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +13,7 @@
 	<title>Los bebos | tu tienda en linea</title>
 	<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/tienda.css" rel="stylesheet"
+    <link href="css/EstilosTienda.css?ts=<?=time()?>" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -19,11 +27,15 @@
                 <img src = "imagenes/logo.jpeg" width="200px">
               </a>
           </div>
-          <div class="col">
-                <img src="imagenes/usuario.jpg">
+          <div class="col datos">
+                <a href="admin_cuenta.php"><img src="imagenes/usuario.jpg" class="perfil">
+                <?php
+                    print("<p class='nombre'>$nom</p>");
+                ?></a>
+                <a href="#"><img src="imagenes/carrito.png" class="carrito"></a>
           </div>
           <div class="col-auto me-auto">
-            <button type="button" class="btn boton" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
+            <button type="button" class="btn boton2" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
           </div>
         </div>
 </header>

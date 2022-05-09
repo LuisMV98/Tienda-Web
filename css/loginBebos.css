@@ -126,3 +126,26 @@
 	font-size: 30px;
 	color: #913730;
 }
+
+/*------- Sección Administrar Cuenta ----------*/
+
+.boton_cambios{
+    background: #1565C0;
+    color: white;
+    width: 150px;
+    height: 40px
+}
+
+.boton_cerrar{
+    background: #d51002;
+    color: white;
+    width: 150px;
+    height: 40px
+}
+
+.borde{
+	border: #913730 10px solid;
+	width:  56%;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,6 +1,12 @@
 <?php
+  session_start();
+	if(isset($_SESSION['correous'])){
+    include 'templates/cabecera_usuario.php';
+  }else{
     include 'templates/cabecera.php';
+  }
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>

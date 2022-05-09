@@ -9,7 +9,7 @@
 		<meta charset="utf-8">	
 		<title>Los bebos | Crear usuario</title>
 		<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="css/loginBebos.css">
+		<link rel="stylesheet" type="text/css" href="css/loginBebos.css?ts=<?=time()?>">
 	</head>
 
 	<body>

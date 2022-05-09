@@ -5,7 +5,7 @@
 	<title>Los bebos | tu tienda en linea</title>
 	<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/tienda.css" rel="stylesheet"
+    <link href="css/EstilosTienda.css?ts=<?=time()?>" rel="stylesheet"
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -40,7 +40,7 @@
                 </svg>
             </span>
             
-          <a class="navbar-brand" href="#">&nbsp;&nbsp;Inicio</a>
+          <a class="navbar-brand" href="index.php">&nbsp;&nbsp;Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

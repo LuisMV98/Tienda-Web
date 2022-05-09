@@ -5,7 +5,7 @@
 
 	$link = Conectar();
 
-	$query = "SELECT correo, contraseña FROM usuarios WHERE correo = '" . $corr . "'";
+	$query = "SELECT correo, contraseña, nombre, direccion, tarjeta FROM usuarios WHERE correo = '" . $corr . "'";
 	
 	$consulta = mysqli_query($link,$query);
 
@@ -21,6 +21,9 @@
 			{
 				session_start();
 				$_SESSION['correous'] = $fila[0];
+				$_SESSION['nomb'] = $fila[2];
+				$_SESSION['dire'] = $fila[3];
+				$_SESSION['tarj'] = $fila[4];
 
 				header("location: index.php?init=1");
 			}
