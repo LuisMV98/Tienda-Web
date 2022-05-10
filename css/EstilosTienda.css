@@ -5,7 +5,10 @@
     width: 150px;
     height: 40px
 }
-
+.botonSecundario{
+    background: #F57C00;
+    color: white;
+}
 .borde{
     color: white;
 }

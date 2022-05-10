@@ -65,7 +65,7 @@
                       </svg>
                     </span>
                 </center>
-                <a class="nav-link" href="reseñas.html">Frutas y Verduras</a>
+                <a class="nav-link" href="frutas.php">Frutas y Verduras</a>
               </li>
               <li class="nav-item">
                 <center>
@@ -85,7 +85,7 @@
                     </svg>
                   </span>
                 </center>
-                <a class="nav-link" href="acceso.html">Lacteos</a>
+                <a class="nav-link" href="lacteos.php">Lacteos</a>
               </li>
               <li class="nav-item">
                 <center>
@@ -105,7 +105,7 @@
                     </svg>
                   </span>
                 </center>
-                <a class="nav-link" href="acceso.html">Vinos y Licores</a>
+                <a class="nav-link" href="vinos.php">Vinos y Licores</a>
               </li>
             </ul>
          
