@@ -16,26 +16,6 @@
         <div align="center" class="wrapper">
             <div id="formContentLog">
                 <form action="registrar.php" method="post">
-                    <div>
-                        <span  class="CrearUs">Nombre: </span>
-                        <input type="text" name="nombre" placeholder="Nombre"><br><br>
-                    </div>
-                    <div>
-                        <span  class="CrearUs">Dirección: </span>
-                        <input type="text" name="direccion" placeholder="Direccion"><br><br>
-                    </div>
-                    <div>
-                        <span  class="CrearUs">No. de tarjeta: </span>
-                        <input type="text" name="tarjeta" placeholder="Tarjeta"><br><br>
-                    </div>
-                    <div>
-                        <span  class="CrearUs">Correo electrónico: </span>
-                        <input type="email" name="correo" placeholder="Correo"><br><br>
-                    </div>
-                    <div>
-                        <span  class="CrearUs">Contraseña: </span>
-                        <input type="password" name="contra" placeholder="Contraseña"><br><br>
-                    </div>
                     <?php
                         if(isset($_REQUEST['conf']))
                         {
@@ -47,6 +27,7 @@
                             }
                             print("</div>");
                         }else{
+                            require("formulario_crear.php");
                             print("<input type='submit' value='Crear usuario'>");
                         }
                     ?>	

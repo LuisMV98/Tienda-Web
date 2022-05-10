@@ -143,6 +143,13 @@
     height: 40px
 }
 
+.boton_regresar{
+    background: #28B463;
+    color: white;
+    width: 160px;
+    height: 60px
+}
+
 .borde{
 	border: #913730 10px solid;
 	width:  56%;
