@@ -15,7 +15,7 @@
       <div class="col">
           <div class="card shadow-sm">
             
-            <img src = "imgenes/Buchanans.jpeg">
+            <img src = "imagenes/Buchanans .jpeg">
             <div class="card-body">
               <p class="card-text">Whisky Buchanan's Deluxe 750 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -31,7 +31,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-            <img src = "imgenes/redLabel.jpeg">
+            <img src = "imagenes/redLabel.jpeg">
             <div class="card-body">
               <p class="card-text">Whisky Johnnie Walker Red Label 700 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -47,7 +47,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-            <img src = "imgenes/cuervo.jpeg">
+            <img src = "imagenes/cuervo.jpeg">
             <div class="card-body">
               <p class="card-text">Tequila José Cuervo Tradicional Reposado 950ml.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -63,7 +63,7 @@
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src = "imgenes/diamante.jpeg">
+          <img src = "imagenes/diamante.jpeg">
 
             <div class="card-body">
               <p class="card-text">Tequila Maestro Dobel Diamante 700ml.</p>
@@ -81,7 +81,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-          <img src = "imgenes/hornitos.jpeg">
+          <img src = "imagenes/hornitos.jpeg">
             <div class="card-body">
               <p class="card-text">Tequila Hornitos Reposado 1L.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -97,7 +97,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-          <img src = "imgenes/ron.jpeg">
+          <img src = "imagenes/ron.jpeg">
             <div class="card-body">
               <p class="card-text">Ron Bacardi Carta Blanca 1.75L.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -113,7 +113,7 @@
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src = "imgenes/blackLabel.jpeg">
+          <img src = "imagenes/blackLabel.jpeg">
 
             <div class="card-body">
               <p class="card-text">Whisky Johnnie Walker Black Label 750 ml.</p>
@@ -130,7 +130,7 @@
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src = "imgenes/donJulio.jpeg">
+          <img src = "imagenes/donJulio.jpeg">
 
             <div class="card-body">
               <p class="card-text">Tequila Don Julio 70 Cristalino 700 ml.</p>
@@ -148,7 +148,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-          <img src = "imgenes/corona.jpeg">
+          <img src = "imagenes/corona.jpeg">
             <div class="card-body">
               <p class="card-text">Cerveza Corona Extra 12 Pack lata 355 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -164,7 +164,7 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img src = "imgenes/donNacho.jpeg">
+            <img src = "imagenes/donNacho.jpeg">
 
             <div class="card-body">
               <p class="card-text">Tequila Don Nacho Blanco Extra Premium 750ml.</p>
@@ -181,7 +181,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-          <img src = "imgenes/babyMango.jpeg">
+          <img src = "imagenes/babyMango.jpeg">
             <div class="card-body">
               <p class="card-text">Licor de Tequila Azul Baby Mango 750ml.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -197,7 +197,7 @@
         <div class="col">
           <div class="card shadow-sm">
             
-          <img src = "imgenes/vino.jpeg">
+          <img src = "imagenes/vino.jpeg">
             <div class="card-body">
               <p class="card-text">Vino Tinto Mexicano Guanamé Syrah 750 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
