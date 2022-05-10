@@ -13,6 +13,8 @@
 	
 	mysqli_query($link,$query);
 
+	echo $nom;
+
 	header("Location: crea_usuario.php?conf=1");
 
 ?>

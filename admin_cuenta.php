@@ -24,22 +24,22 @@
         <div align="center">
             <div align="center" class="wrapper borde">
                 <div id="formContentLog">
-                    <form action="#" method="post">
+                    <form action="actualizar.php" method="post">
                         <div>
                             <span  class="CrearUs">Nombre: </span>
-                            <?php print("<input type='text' name='nombre' placeholder='$nom'><br><br>"); ?>
+                            <?php print("<input type='text' name='nombre' value='$nom'><br><br>"); ?>
                         </div>
                         <div>
                             <span  class="CrearUs">Dirección: </span>
-                            <?php print("<input type='text' name='direccion' placeholder='$dir'><br><br>"); ?>
+                            <?php print("<input type='text' name='direccion' value='$dir'><br><br>"); ?>
                         </div>
                         <div>
                             <span  class="CrearUs">No. de tarjeta: </span>
-                            <?php print("<input type='text' name='tarjeta' placeholder='$tar'><br><br>"); ?>
+                            <?php print("<input type='text' name='tarjeta' value='$tar'><br><br>"); ?>
                         </div>
                         <div>
                             <span  class="CrearUs">Correo electrónico: </span>
-                            <?php print("<input type='email' name='correo' placeholder='$corr'><br><br>"); ?>
+                            <?php print("<input type='email' name='correo' value='$corr'><br><br>"); ?>
                         </div>
                         <?php
                             if(isset($_REQUEST['conf']))
@@ -48,7 +48,7 @@
                                 $conf = $_REQUEST['conf'];
                                 if($conf==1)
                                 {
-                                    print("Nuevo Usuario Registrado.");
+                                    print("Cambios Guardados.");
                                 }
                                 print("</div>");
                             }else{
@@ -65,7 +65,7 @@
                             $conf = $_REQUEST['conf'];
                             if($conf==1)
                             {
-                                print("<a href='login.php'><input type='submit' value='Iniciar sesión'></a>");
+                                print("<a href='index.php'><button type='submit' class='btn boton_regresar'>REGRESAR A INICIO</button><br><br></a>");
                             }
                         }
                     ?>
