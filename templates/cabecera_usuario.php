@@ -32,7 +32,7 @@
                 <?php
                     print("<p class='nombre'>$nom</p>");
                 ?></a>
-                <a href="#"><img src="imagenes/carrito.png" class="carrito"></a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"><?php echo $totalcantidad; ?></a>
           </div>
           <div class="col-auto me-auto">
             <button type="button" class="btn boton2" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
@@ -41,6 +41,74 @@
 </header>
 
 <body>
+
+<!--CARRITO VENTANA EMERGENTE -->
+<div class="modal fade" id="modal_cart" tabindex="-1"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bebo Carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+   
+   
+     
+			<div class="modal-body">
+				<div>
+					<div class="p-2">
+						<ul class="list-group mb-3">
+							<?php
+							if(isset($_SESSION['carrito'])){
+							$total=0;
+							for($i=0;$i<=count($carrito_mio)-1;$i ++){
+							if($carrito_mio[$i]!=NULL){
+						
+            ?>
+							<li class="list-group-item d-flex justify-content-between lh-condensed">
+								<div class="row col-12" >
+									<div class="col-6 p-0" style="text-align: left; color: #000000;"><h6 class="my-0">Cantidad: <?php echo $carrito_mio[$i]['cantidad'] ?> : <?php echo $carrito_mio[$i]['titulo']; // echo substr($carrito_mio[$i]['titulo'],0,10); echo utf8_decode($titulomostrado)."..."; ?></h6>
+									</div>
+									<div class="col-6 p-0"  style="text-align: right; color: #000000;" >
+									<span   style="text-align: right; color: #000000;"><?php echo $carrito_mio[$i]['precio'] * $carrito_mio[$i]['cantidad'];    ?> $</span>
+									</div>
+								</div>
+							</li>
+							<?php
+							$total=$total + ($carrito_mio[$i]['precio'] * $carrito_mio[$i]['cantidad']);
+							}
+							}
+							}
+							?>
+							<li class="list-group-item d-flex justify-content-between">
+							<span  style="text-align: left; color: #000000;">Total (MX)</span>
+							<strong  style="text-align: left; color: #000000;"><?php
+							if(isset($_SESSION['carrito'])){
+							$total=0;
+							for($i=0;$i<=count($carrito_mio)-1;$i ++){
+							if($carrito_mio[$i]!=NULL){ 
+							$total=$total + ($carrito_mio[$i]['precio'] * $carrito_mio[$i]['cantidad']);
+							}}}
+							echo $total; ?> $</strong>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
+        <a type="button" class="btn botonSecundario" href="borrarcarro.php">Vaciar carrito</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CARRITO VENTANA EMERGENTE FIN-->
+
+
   <div class="container">
     <div class="principal">
       <nav class="navbar navbar-expand-lg navbar-dark"  style="background-color: #913730;">
