@@ -15,37 +15,56 @@
       <div class="col">
           <div class="card shadow-sm">
             
+            <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="907" />
+            <input name="titulo" type="hidden" id="titulo" value="Whisky Buchanan Deluxe" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
             <img src = "imagenes/Buchanans .jpeg">
             <div class="card-body">
               <p class="card-text">Whisky Buchanan's Deluxe 750 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$907.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
             
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="285.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Johnnie Walker Red Label" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
             <img src = "imagenes/redLabel.jpeg">
             <div class="card-body">
               <p class="card-text">Whisky Johnnie Walker Red Label 700 ml.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$285.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="385.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Jose Cuervo Tradicional" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
             <img src = "imagenes/cuervo.jpeg">
             <div class="card-body">
@@ -53,16 +72,23 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$385.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="789.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Tequila Maestro Diamante" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
           <img src = "imagenes/diamante.jpeg">
 
             <div class="card-body">
@@ -70,16 +96,22 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$789.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="436.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Tequila Hornitos Reposado" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
           <img src = "imagenes/hornitos.jpeg">
             <div class="card-body">
@@ -87,15 +119,22 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$436.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="365.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Ron Bacardi Carta Blanca" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
           <img src = "imagenes/ron.jpeg">
             <div class="card-body">
@@ -103,16 +142,23 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$365.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="989.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Johnnie Walker Black Label" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
           <img src = "imagenes/blackLabel.jpeg">
 
             <div class="card-body">
@@ -120,16 +166,23 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$989.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="1039" />
+            <input name="titulo" type="hidden" id="titulo" value="Tequila don Julio Cristalino" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
           <img src = "imagenes/donJulio.jpeg">
 
             <div class="card-body">
@@ -137,16 +190,22 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$1,039.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="192.00" />
+            <input name="titulo" type="hidden" id="titulo" value="Cerveza corona Extra 12 pack" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
           <img src = "imagenes/corona.jpeg">
             <div class="card-body">
@@ -154,16 +213,23 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$192.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="620" />
+            <input name="titulo" type="hidden" id="titulo" value="Tequila don nacho Blanco" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
             <img src = "imagenes/donNacho.jpeg">
 
             <div class="card-body">
@@ -171,15 +237,22 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$620.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="209" />
+            <input name="titulo" type="hidden" id="titulo" value="Tequila Azul Baby mango" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
           <img src = "imagenes/babyMango.jpeg">
             <div class="card-body">
@@ -187,15 +260,22 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$209.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
+
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="399" />
+            <input name="titulo" type="hidden" id="titulo" value="Vino Tinto Mexicano Guanamé Syrah" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
             
           <img src = "imagenes/vino.jpeg">
             <div class="card-body">
@@ -203,11 +283,12 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-success">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm btn btn-warning">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$399.00</small>
               </div>
             </div>
+            </form>
           </div>
         </div>
       </div>
