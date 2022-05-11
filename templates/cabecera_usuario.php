@@ -116,7 +116,7 @@ if(isset($_SESSION['carrito'])){
       </div>
       <div class="modal-footer">
         <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
-        <a type="button" class="btn botonSecundario" href="borrarcarro.php">Vaciar carrito</a>
+        <a type="button" class="btn botonSecundario" href="templates/borrarcarro.php">Vaciar carrito</a>
       </div>
     </div>
   </div>

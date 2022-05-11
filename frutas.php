@@ -11,21 +11,30 @@
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
         <div class="col">
           <div class="card shadow-sm">
-          <img src = "imagenes/sandia.jpg"> 
+            
+          <form id="formulario" name="formulario" method="post" action="templates/cart.php">
+            <input name="precio" type="hidden" id="precio" value="16" />
+            <input name="titulo" type="hidden" id="titulo" value="sandia" />
+            <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+
+            <img src = "imagenes/sandia.jpg"> 
             <div class="card-body">
               <p class="card-text">Sandia Blanca Rayada por Kg. </p>
               <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+                    <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$16.00/kg</small>
               </div>
             </div>
+          </form>
           </div>
         </div>
+       
 
         <div class="col">
           <div class="card shadow-sm">
