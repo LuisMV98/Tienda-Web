@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	session_destroy();
   include 'templates/cabecera2.php';
 ?>
     
@@ -9,7 +11,7 @@
 		<meta charset="utf-8">	
 		<title>Los bebos | Inicio de sesión</title>
 		<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/loginBebos.css">
 	</head>
 
 	<body>
@@ -25,9 +27,9 @@
                 <br>
         
                 <!-- Login Form -->
-                <form>
-                <input type="text" name="user" placeholder="Correo"><br><br>
-                <input type="text" name="pass" placeholder="Contraseña"><br><br>
+                <form action="validar.php" method="post">
+                <input type="email" name="correo" placeholder="Correo"><br><br>
+                <input type="password" name="contra" placeholder="Contraseña"><br><br>
                 <input type="submit" value="Ingresar">
                 <!--
                 <p>OR</p>
