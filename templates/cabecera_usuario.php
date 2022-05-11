@@ -6,6 +6,21 @@
 	}
  ?>
 
+<?php 
+
+$carrito_mio=$_SESSION['carrito'];
+$_SESSION['carrito']=$carrito_mio;
+
+// contamos nuestro carrito
+if(isset($_SESSION['carrito'])){
+    for($i=0;$i<=count($carrito_mio)-1;$i ++){
+    if($carrito_mio[$i]!=NULL){ 
+    $total_cantidad = $carrito_mio['cantidad'];
+    $total_cantidad ++ ;
+    $totalcantidad += $total_cantidad;
+    }}}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
