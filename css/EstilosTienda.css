@@ -13,6 +13,11 @@
     color: white;
 }
 
+.fondo{
+    background: #913730;
+    color: white;
+}
+
 /* Estilos usados cuando ha ingresado el usuario */
 
 .datos{
