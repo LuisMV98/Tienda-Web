@@ -25,8 +25,8 @@
               <p class="card-text">Sandia Blanca Rayada por Kg. </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                    <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                    <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                    <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$16.00/kg</small>
               </div>
@@ -50,7 +50,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$21.50/kg</small>
               </div>
@@ -73,7 +73,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$44.90</small>
               </div>
@@ -97,7 +97,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$56.90</small>
               </div>
@@ -121,7 +121,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$44.90</small>
               </div>
@@ -145,7 +145,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$53.90</small>
               </div>
@@ -168,7 +168,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$46.90</small>
               </div>
@@ -191,7 +191,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$39.90</small>
               </div>
@@ -215,7 +215,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$52.14</small>
               </div>
@@ -239,7 +239,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$85.00</small>
               </div>
@@ -262,7 +262,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$56.00</small>
               </div>
@@ -285,7 +285,7 @@
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$59.00</small>
               </div>

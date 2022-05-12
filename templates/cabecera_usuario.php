@@ -125,6 +125,29 @@
 <!--CARRITO VENTANA EMERGENTE FIN-->
 
 
+<!-- COMPRA REALIZADA -->
+<div class="modal fade" id="compraRealizada" tabindex="-1" aria-labelledby="compraRealizadaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header fondo">
+        <h5 class="modal-title" id="compraRealizadaLabel"> TIENDA BEBOS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p> COMPRA REALIZADA.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--COMPRA REALIZADA FIN-->
+
+
+
   <div class="container">
     <div class="principal">
       <nav class="navbar navbar-expand-lg navbar-dark"  style="background-color: #913730;">
