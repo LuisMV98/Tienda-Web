@@ -18,6 +18,15 @@
     color: white;
 }
 
+.botonComprar{
+    background: #6f7632;
+    color: white;
+}
+
+.botonCarrito{
+    background: #885531;
+    color: white;
+}
 /* Estilos usados cuando ha ingresado el usuario */
 
 .datos{
