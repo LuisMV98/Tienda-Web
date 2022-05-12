@@ -1,5 +1,8 @@
 <?php
 	//session_start();
+
+  error_reporting(E_ERROR | E_PARSE);
+
 	if(isset($_SESSION['nomb']))
 	{
     $nom = $_SESSION['nomb'];
@@ -9,12 +12,12 @@
     if(isset($_SESSION['carrito'])){
       $carrito_mio=$_SESSION['carrito'];
       $_SESSION['carrito']=$carrito_mio;
-    for($i=0;$i<=count($carrito_mio)-1;$i ++){
-    if($carrito_mio[$i]!=NULL){ 
-    $total_cantidad = $carrito_mio['cantidad'];
-    $total_cantidad ++ ;
-    $totalcantidad += $total_cantidad;
-    }}}
+      for($i=0;$i<=count($carrito_mio)-1;$i ++){
+      if($carrito_mio[$i]!=NULL){
+      $total_cantidad = $carrito_mio['cantidad'];
+      $total_cantidad ++ ;
+      $totalcantidad += $total_cantidad;
+      }}}
 	}
 ?>
 
@@ -44,7 +47,8 @@
                 <?php
                     print("<p class='nombre'>$nom</p>");
                 ?></a>
-                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"><?php if(isset($totalcantidad)){echo $totalcantidad;} ?></a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"></a>
+                <?php if(isset($totalcantidad)){print("<p class='cantidadCarrito'>$totalcantidad</p>");} ?>
           </div>
           <div class="col-auto me-auto">
             <button type="button" class="btn boton2" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
@@ -101,7 +105,7 @@
 							if($carrito_mio[$i]!=NULL){ 
 							$total=$total + ($carrito_mio[$i]['precio'] * $carrito_mio[$i]['cantidad']);
 							}}}
-							echo $total; ?> $</strong>
+							if(isset($totalcantidad)){echo $total;} ?> $</strong>
 							</li>
 						</ul>
 					</div>
@@ -113,7 +117,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
-        <a type="button" class="btn botonSecundario" href="templates/borrarcarro.php">Vaciar carrito</a>
+        <a type="button" class="btn botonSecundario" href="templates/borrarcarro.php">Realizar Pago</a>
       </div>
     </div>
   </div>
