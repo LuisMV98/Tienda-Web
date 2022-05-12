@@ -3,22 +3,19 @@
 	if(isset($_SESSION['nomb']))
 	{
     $nom = $_SESSION['nomb'];
-	}
- ?>
 
-<?php 
-
-$carrito_mio=$_SESSION['carrito'];
-$_SESSION['carrito']=$carrito_mio;
-
-// contamos nuestro carrito
-if(isset($_SESSION['carrito'])){
+    
+      // contamos nuestro carrito
+    if(isset($_SESSION['carrito'])){
+      $carrito_mio=$_SESSION['carrito'];
+      $_SESSION['carrito']=$carrito_mio;
     for($i=0;$i<=count($carrito_mio)-1;$i ++){
     if($carrito_mio[$i]!=NULL){ 
     $total_cantidad = $carrito_mio['cantidad'];
     $total_cantidad ++ ;
     $totalcantidad += $total_cantidad;
     }}}
+	}
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +44,7 @@ if(isset($_SESSION['carrito'])){
                 <?php
                     print("<p class='nombre'>$nom</p>");
                 ?></a>
-                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"><?php echo $totalcantidad; ?></a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"><?php if(isset($totalcantidad)){echo $totalcantidad;} ?></a>
           </div>
           <div class="col-auto me-auto">
             <button type="button" class="btn boton2" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
@@ -207,7 +204,3 @@ if(isset($_SESSION['carrito'])){
           </div>
         </div>
       </nav>
-
-
-    
-  
