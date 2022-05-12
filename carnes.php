@@ -24,8 +24,8 @@
               <p class="card-text">Carne Parrillera prepara en casa una deliciosa parrillada ¡no te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+               <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$162.00 MX</small>
               </div>
@@ -45,8 +45,8 @@
               <p class="card-text">Arrachera de Res Pulpa Marinada 500 gr. ¡No te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$80.00 MX</small>
               </div>
@@ -66,8 +66,8 @@
               <p class="card-text">Las albóndigas aportan vitaminas del grupo B. Aportan también ácido fólico</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$98.00 MX</small>
               </div>
@@ -86,8 +86,8 @@
               <p class="card-text">Cecina Enchilada Cerdo Nutrí Carne 450g. ¡No te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$58.00 MX</small>
               </div>
@@ -107,8 +107,8 @@
               <p class="card-text">Chorizo Argentino DCC por kg. ¡No te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$104.00 MX/KG</small>
               </div>
@@ -128,8 +128,8 @@
               <p class="card-text">Filete de Res empacado individual al vacío, facilita el almacenamiento y evita quemadura por congelación.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$264.00 MX</small>
               </div>
@@ -149,8 +149,8 @@
               <p class="card-text">Ternera Ossobuco. Contiene minerales como el magnesio, cinc, fósforo, hierro y potasio.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$275.00 MX/KG</small>
               </div>
@@ -169,8 +169,8 @@
               <p class="card-text">Chuleta de Cerdo Estilo Ranchero kg. ¡No te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$120.00 MX/KG.</small>
               </div>
@@ -189,8 +189,8 @@
               <p class="card-text">Ahumado natural y delicioso sabor..¡No te quedes con el antojo!.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonSecundario">Agregar al carrito</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
+                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$278.00 MX</small>
               </div>

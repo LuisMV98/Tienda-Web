@@ -49,7 +49,7 @@
               <p class="card-text">Jícama por Kg. Refrescante y ligera </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$21.50/kg</small>
@@ -72,7 +72,7 @@
               <p class="card-text">Uva Negra Domo 908g. </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$44.90</small>
@@ -96,7 +96,7 @@
               <p class="card-text">Papa Campo Vivo Orgánica 1kg</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$56.90</small>
@@ -120,7 +120,7 @@
               <p class="card-text">Tomate Racimo Organico 300g.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$44.90</small>
@@ -144,7 +144,7 @@
               <p class="card-text">Kiwi Chumis 450g.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$53.90</small>
@@ -167,7 +167,7 @@
               <p class="card-text">Naranja campo vivo organica 2kg.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$46.90</small>
@@ -190,7 +190,7 @@
               <p class="card-text">Lechuga mini romana 2 piezas</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$39.90</small>
@@ -214,7 +214,7 @@
               <p class="card-text">Cebolla morada organica bolsa 700g</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$52.14</small>
@@ -238,7 +238,7 @@
               <p class="card-text">Flores comestibles carborganic 20g</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$85.00</small>
@@ -261,7 +261,7 @@
               <p class="card-text">Manzana pure Harvest golden 600g</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$56.00</small>
@@ -284,7 +284,7 @@
               <p class="card-text">Aguacate Hass Enmallado Pieza</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                 <button type="button" class="btn btn-sm btn-primary">Comprar ahora</button>
+              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
                   <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
                 </div>
                 <small class="text-muted">$59.00</small>
