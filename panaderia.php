@@ -23,8 +23,9 @@
               <p class="card-text">Paste elaborado con harina de trigo relleno con queso crema con mermelada de zarzamora.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$15.00 MX</small>
               </div>
@@ -44,8 +45,9 @@
               <p class="card-text">Paste elaborado con harina de trigo relleno con mermelada de piña.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$15.00 MX</small>
               </div>
@@ -64,8 +66,9 @@
               <p class="card-text">Pan rústico elaborado con harina de trigo y centeno. ¡No te quedes con el antojo!</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$30.00 MX</small>
               </div>
@@ -86,8 +89,9 @@
               <p class="card-text">Pan rústico elaborado con harina de trigo con pasas.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">"20.00 MX</small>
               </div>
@@ -106,8 +110,9 @@
               <p class="card-text">Pan rústico elaborado con harina de trigo con semillas tostadas.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$30.00 MX</small>
               </div>
@@ -127,8 +132,9 @@
               <p class="card-text">Pan tradicional elaborado con harina de trigo y salvado.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$5.00 MX</small>
               </div>
@@ -149,8 +155,9 @@
               <p class="card-text">Pan dulce elaborado con harina de arroz, leche condensada y granos de elote</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$23.00 MX</small>
               </div>
@@ -170,8 +177,9 @@
               <p class="card-text">Mantecada de vainilla. Pan dulce, auténtico sabor.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$23.00 MX</small>
               </div>
@@ -191,8 +199,9 @@
               <p class="card-text">El mismo delicioso sabor y consistencia de nuestros Bagels ahora en tamaño mini.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$80.00 MX</small>
               </div>
@@ -213,8 +222,9 @@
               <p class="card-text">Concha Premium tradicional con té de matcha natural.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$12.00 MX</small>
               </div>
@@ -233,8 +243,9 @@
               <p class="card-text">Pan dulce elaborado con batido de cream cake de vainilla.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$10.00 MX</small>
               </div>
@@ -253,8 +264,9 @@
             <p class="card-text">Bisquet Premium tradicional. ¡No te quedes con el antojo!</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$10.00 MX</small>
               </div>
