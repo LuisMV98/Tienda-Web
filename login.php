@@ -28,14 +28,9 @@
         
                 <!-- Login Form -->
                 <form action="validar.php" method="post">
-                <input type="email" name="correo" placeholder="Correo"><br><br>
-                <input type="password" name="contra" placeholder="Contraseña"><br><br>
-                <input type="submit" value="Ingresar">
-                <!--
-                <p>OR</p>
-                <img src="img/facebook-logo.png" class="logoface">
-                <input type="submit" value="Login via facebook">
-                -->
+                  <input type="email" name="correo" placeholder="Correo"><br><br>
+                  <input type="password" name="contra" placeholder="Contraseña"><br><br>
+                  <input type="submit" value="Ingresar">
                 </form>
         
                 <!-- Remind Passowrd -->

@@ -16,7 +16,6 @@
 
     echo $tarje;
 
-	//$query = "INSERT INTO usuarios VALUES ('$nombr', '$direc', '$tarje', '$corre', 'XXXX')";
 	$query = "UPDATE usuarios SET nombre='$nombr',direccion='$direc',tarjeta='$tarje',correo='$corre' WHERE correo='$corre'";
 
 	mysqli_query($link,$query);

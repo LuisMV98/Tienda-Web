@@ -41,22 +41,6 @@
 		header("location: login_error.php?err=1");
 	}
 
-
-
-
-	//print($corr);
-	//print("<br>");
-	//print($pass);
-
-
-
-
 	print("<br>");
 	print("<a href = login.php>Inicio</a> ");
-
-
-
-
-
-
 ?>
