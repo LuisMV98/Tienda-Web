@@ -48,7 +48,9 @@
                     print("<p class='nombre'>$nom</p>");
                 ?></a>
                 <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart"><img src="imagenes/carrito.png" class="carrito"></a>
-                <?php if(isset($totalcantidad)){print("<p class='cantidadCarrito'>$totalcantidad</p>");} ?>
+                <div class="cantidadCarrito">
+                <?php if(isset($totalcantidad)){print("<p>$totalcantidad</p>");} ?>
+                </div>
           </div>
           <div class="col-auto me-auto">
             <button type="button" class="btn boton2" onclick="location.href='cerrar_sesion.php'">Cerrar Sesión</button>
