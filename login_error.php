@@ -31,16 +31,20 @@
                     <input type="email" name="correo" placeholder="Correo"><br><br>
                     <input type="password" name="contra" placeholder="Contraseña"><br><br>
                     <div class="mb-3">
-                        <div class="alert alert-danger">
+                        <div>
                             <?php
                                 $err = $_REQUEST['err'];
                                 if($err == 0)
                                 {
-                                    print("La contraseña es incorrecta");
+                                    print("<div class='alert alert-danger'>La contraseña es incorrecta</div>");
                                 }
                                 elseif ($err == 1) 
                                 {
-                                    print("El usuario no existe");
+                                    print("<div class='alert alert-danger'>El usuario no existe</div>");
+                                }
+                                elseif ($err == 3) 
+                                {
+                                    print("<div class='alert alert-info'>Para poder comprar o agregar al carrito debe de iniciar sesión</div>");
                                 }
                             ?>
                         </div>								

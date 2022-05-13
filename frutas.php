@@ -26,8 +26,9 @@
               <p class="card-text">Sandia Blanca Rayada por Kg. </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                    <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+                  <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$16.00/kg</small>
               </div>
@@ -51,10 +52,11 @@
               <p class="card-text">Jícama por Kg. Refrescante y ligera </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
-                </div>
-                <small class="text-muted">$21.50/kg</small>
+                <?php
+                  require("botones_comprar_agregar.php");
+                ?>
+              </div>
+              <small class="text-muted">$21.50/kg</small>
               </div>
             </div>
             </form>
