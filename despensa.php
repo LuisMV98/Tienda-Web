@@ -26,8 +26,9 @@
                   con molinillo o pruébalo en modo express en licuadora. Dale un gusto a tu antojo cargado de energía y sabor con esta presentación de Chococoa.</p>
                 <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+                <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$44.90</small>
               </div>
@@ -49,8 +50,9 @@
                 una increíble proteína para niños, jóvenes y deportistas.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+                <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$159.00 MX</small>
               </div>
@@ -73,8 +75,9 @@
               </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$38.00 MX</small>
               </div>
@@ -96,8 +99,9 @@
                 pasando por las etapas de refinado, blanqueado y desodorizado en condiciones higiénicas controladas, garantizando un aceite de alta calidad.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$45.00 MX</small>
               </div>
@@ -118,8 +122,9 @@
                 a llevar una dieta balanceada y una vida más saludable. Apto para: Intolerantes a la lactosa y para veganos. Marca	Silk</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$52.00 MX</small>
               </div>
@@ -142,8 +147,9 @@
               Solo en Sam's Club encontrarás una amplia variedad de artículos de abarrotes por mayoreo perfectos para tu hogar o negocio. </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$105.00 MX</small>
               </div>
@@ -165,8 +171,9 @@
                 y vitaminas del arroz. Es un producto que nos ayuda en nuestra alimentación por su alto contenido en fibra.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$33.00 MX</small>
               </div>
@@ -188,8 +195,9 @@
                 personas con dietas bajas en sodio, ya que tiene mucho menos sodio que la sal común.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$155.00 MX</small>
               </div>
@@ -212,8 +220,9 @@
                 variedad de platillos. Este producto está libre de conservadores, es 100% natural, está pasteurizado y puede ser parte de tu dieta baja en grasa, ya que está libre de ella.</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$41.00 MX</small>
               </div>
@@ -236,8 +245,9 @@
               sentidos! Pruébalo como parte de un desayuno balanceado con leche, fruta fresca o incluso yogurt y granola. ¡Motívate y disfruta de una vida activa!</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$53.00 MX</small>
               </div>
@@ -260,8 +270,9 @@
               minerales, fibra y proteína vegetal. Calidad Bueno lleva a tu mesa frescura, lo mejor de las cosechas de esta legumbre para que obtengas los múltiples beneficios que esta te brinda</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$25.00 MX</small>
               </div>
@@ -284,8 +295,9 @@
                 colorantes ni saborizantes artificiales y están diseñadas con nutrientes esenciales como vitaminas A, D, B12, C, E , ácido fólico y calcio. </p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-              <button type="button" class="btn btn-sm botonComprar" data-bs-toggle="modal" data-bs-target="#compraRealizada">Comprar ahora</button>
-                  <button type="button submit" class="btn btn-sm botonCarrito">Agregar al carrito</button>
+              <?php
+                    require("botones_comprar_agregar.php");
+                  ?>
                 </div>
                 <small class="text-muted">$38.00 MX</small>
               </div>
