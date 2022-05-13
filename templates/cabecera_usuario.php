@@ -135,11 +135,13 @@
         <h5 class="modal-title" id="compraRealizadaLabel"> TIENDA BEBOS</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body alerta_compra">
         <p> COMPRA REALIZADA.</p>
+        <p> El monto ha sido cargado a su tarjeta.</p>
+        <img src="imagenes/billetes.png" class="billetes">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn boton" data-bs-dismiss="modal">Aceptar</button>
       </div>
     </div>
   </div>
